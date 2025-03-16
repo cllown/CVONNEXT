@@ -44,7 +44,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
             className={`md:flex justify-end gap-6 text-lg font-medium absolute md:static top-0 left-0 w-full h-full bg-white dark:bg-gray-700 md:bg-transparent md:dark:bg-transparent px-12 shadow-lg md:shadow-none transition-all transform ${
               isOpen ? "translate-x-0 w-full h-full" : "-translate-x-full w-0"
             } md:translate-x-0 md:flex-row md:w-auto md:h-auto md:space-x-6 transition-transform ease-in-out duration-500`}>
-            <div className="flex flex-col justify-center items-center h-full w-full space-y-6 z-40">
+            <div className={`flex flex-col md:flex-row justify-center items-center h-full w-full space-y-6 md:space-y-0 md:space-x-6 z-40`}>
               {["Обо мне", "Мой опыт", "Мои проекты"].map((text, i) => (
                 <a
                   key={i}
