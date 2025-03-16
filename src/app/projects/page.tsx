@@ -9,7 +9,7 @@ const projects =[
     {
         title:"Кино-портал",
         desc:"Сайт на Angular для выбора актуальных фильмов",
-        link:"https://cllown.github.io/movies/movies/",
+        link:"https://cllown.github.io/movies/movies/popular",
         repo:"https://github.com/cllown/movies"
     },
 
